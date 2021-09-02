@@ -3518,11 +3518,28 @@ fieldset:disabled .btn {
   color: #FFFEFE;
   background-color: #023571;
   border-color: #023571;
+  width: 150px;
 }
 
 .btn-primary:hover {
   color: white;
 }
+
+#btn-modal{
+  width: 350px;
+}
+
+.ancora-modal{
+  font-size: 130%;
+}
+
+.ancora-modal:link, a:visited, a:active {
+	text-decoration: underline;
+	}
+.ancora-modal:hover {
+	text-decoration: underline overline;
+	color:#023571;
+	}
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #FFFEFE;
