@@ -5,12 +5,12 @@
   <title>Difrete</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/theme.css">
+  
 </head>
 
 <body>
@@ -18,46 +18,31 @@
   <div class="wrapper d-flex align-items-stretch">
     <nav id="sidebar">
       <div class="p-4 pt-5">
-        <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
-        <ul class="list-unstyled components mb-5">
-          <li class="active">
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li>
-                <a href="#">Home 1</a>
-              </li>
-              <li>
-                <a href="#">Home 2</a>
-              </li>
-              <li>
-                <a href="#">Home 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-            <ul class="collapse list-unstyled" id="pageSubmenu">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
+        
+        <div class="container">
+          <center><h1>Filtros</h1><br></center>
+          <div class="form-check">
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                  <label for="inputRntrc">Localização</label>
+                  <input type="text" class="form-control" id="inputRntrc">
+              </div>
+          </div>
+          <hr>
+            <center><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Autônomo
+            </label></center>
+            <hr>
+          </div>
+          <div class="form-check">
+            <center><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Empresa
+            </label></center>
+          </div>
+        </div>
+        
       </div>
     </nav>
 
@@ -71,52 +56,67 @@
             <i class="fa fa-bars"></i>
             <span class="sr-only">Toggle Menu</span>
           </button>
-          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
-          </button>
+          
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#">Perguntas frequentes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg></a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">João <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg></a>
+            </li>
             </ul>
           </div>
         </div>
       </nav>
 
       <div class="wrapper2">
-        <h1>CSS Grid Layout</h1>
+        <h1>Fretistas disponíveis</h1>
+        <p>7 fretistas encontrados</p><br>
         <ul class="grid cards">
-          <li><h2>Card 1</h2>
-            <p>Posuere varius ullamcorper ipsum adipiscing dignissim ipsum adipiscing a a quisque malesuada quam purus venenatis sagittis fermentum parturient curabitur montes a metus.</p>
+          <li><h2>Império Fretes 1</h2>
+            <h5>Império Fretes</h5>
+            <p>São José do Rio Preto</p>
+            <center><button type="button" class="btn btn-primary">Primary</button></center>
           </li>
 
-          <li><h2>Card 2</h2>
-            <p>Posuere varius ullamcorper ipsum adipiscing dignissim ipsum adipiscing a a quisque malesuada quam purus venenatis sagittis fermentum parturient curabitur montes a metus.</p>
+          <li><h2>Império Fretes 2</h2>
+            <h5>Império Fretes</h5>
+            <p>São José do Rio Preto</p>
+            <center><button type="button" class="btn btn-primary">Primary</button></center>
           </li>
 
-          <li><h2>Card 3</h2>
-            <p>Posuere varius ullamcorper ipsum adipiscing dignissim ipsum adipiscing a a quisque malesuada quam purus venenatis sagittis fermentum parturient curabitur montes a metus.</p>
+          <li><h2>Império Fretes 3</h2>
+            <h5>Império Fretes</h5>
+            <p>São José do Rio Preto</p>
+            <center><button type="button" class="btn btn-primary">Primary</button></center>
           </li>
 
-          <li><h2>Card 4</h2>
-            <p>Posuere varius ullamcorper ipsum adipiscing dignissim ipsum adipiscing a a quisque malesuada quam purus venenatis sagittis fermentum parturient curabitur montes a metus.</p>
+          <li><h2>Império Fretes 4</h2>
+            <h5>Império Fretes</h5>
+            <p>São José do Rio Preto</p>
+            <center><button type="button" class="btn btn-primary">Primary</button></center>
           </li>
 
-          <li><h2>Card 5</h2>
-            <p>Posuere varius ullamcorper ipsum adipiscing dignissim ipsum adipiscing a a quisque malesuada quam purus venenatis sagittis fermentum parturient curabitur montes a metus.</p>
+          <li><h2>Império Fretes 5</h2>
+            <h5>Império Fretes</h5>
+            <p>São José do Rio Preto</p>
+            <center><button type="button" class="btn btn-primary">Primary</button></center>
           </li>
         </ul>
       </div>

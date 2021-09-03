@@ -5397,7 +5397,7 @@
     background-color: #bd2130 !important; }
   
   .bg-light {
-    background-color: #f8f9fa !important; }
+    background-color: #d3d3d3 !important; }
   
   a.bg-light:hover, a.bg-light:focus,
   button.bg-light:hover,
@@ -8278,11 +8278,11 @@
     transition: all 0.3s; }
   
   .btn.btn-primary {
-    background: #f8b739;
-    border-color: #f8b739; }
+    background: #023571;
+    border-color: #023571; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      background: #f8b739 !important;
-      border-color: #f8b739 !important; }
+      background: #023571 !important;
+      border-color: #023571 !important; }
   
   .footer p {
     color: rgba(255, 255, 255, 0.5); }
@@ -8319,20 +8319,19 @@
 }
 
 .cards li {
-  border: 2px solid #490A3D;
-  border-radius:5px;
-  background-color: #BD1550;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
   flex: 1 1 200px;
 }
 
 .cards h2 {
-  background-color: #490A3D;
+  background-color: white;
+  text-align: center;
   margin: 0;
   padding: 10px;
 }
 
-.cards p {
+.cards p, h5 {
   padding: 10px;
 }
 
